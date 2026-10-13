@@ -1,97 +1,60 @@
-# National Cybersecurity Awareness Portal — PHP/MySQL (WAMP/XAMPP)
+# National Cybersecurity Awareness Portal
 
-A bilingual (English/Filipino) cybersecurity awareness website for Filipino
-citizens, built as a **classic PHP 8 + MySQL + PDO** project with Bootstrap-free
-custom CSS, Font Awesome icons, and a full admin console — ready to drop into
-`htdocs` / `www`.
+A cybersecurity awareness website built with **PHP 8**, **MySQL**, and **Bootstrap 5** — featuring a public education site, an interactive quiz, and a complete admin dashboard for content and user management.
 
-> Independent educational platform. Not an official Philippine government website.
+> ⚠️ This is an independent educational project. It is **not** an official Philippine government website unless formally authorized by a government agency.
 
-## Project structure
+---
 
-```
-cybersecurity-portal/
-├── index.php · about.php · scams.php · phishing.php · passwords.php
-├── privacy.php · practices.php · quiz.php · resources.php · contact.php · 404.php
-├── .htaccess                     # friendly 404 + security headers
-├── admin/
-│   ├── login.php                 # sign-in + first-run admin bootstrap
-│   ├── dashboard.php             # users, attempts, avg score, messages
-│   ├── users.php                 # user management (admin role)
-│   ├── quizzes.php               # bilingual question bank CRUD
-│   ├── results.php               # saved quiz results
-│   ├── messages.php              # contact inbox (read/unread/delete)
-│   ├── logout.php                # secure POST logout
-│   └── nav.php                   # admin sidebar partial
-├── includes/
-│   ├── config.php                # DB creds, sessions, CSRF, helpers
-│   ├── database.php              # shared PDO connection + helpers
-│   ├── language.php              # EN/FIL dictionary + session/cookie persistence
-│   ├── header.php · navbar.php · footer.php
-│   └── admin_guard.php           # session check for admin pages
-├── assets/
-│   ├── css/style.css             # whole theme (navy/cyan/gold design system)
-│   └── js/script.js              # all interactivity (checker, simulator, checklist, quiz…)
-└── database/
-    └── cybersecurity_portal.sql  # database + 5 tables + 10 seeded questions
-```
+## 📖 About the Project
 
-## Setup on WAMP or XAMPP (5 minutes)
+Many Filipinos fall victim to online scams, phishing, and identity theft simply because cybersecurity awareness is not widely accessible. This portal aims to change that by providing:
 
-1. **Install** WAMP (Windows) or XAMPP, and start **Apache** and **MySQL**.
-2. **Copy** the `cybersecurity-portal` folder into your web root:
-   - WAMP → `C:\wamp64\www\`
-   - XAMPP → `C:\xampp\htdocs\`
-3. **Open phpMyAdmin** → `http://localhost/phpmyadmin` → **Import** → choose
-   `cybersecurity-portal/database/cybersecurity_portal.sql` → **Go**.
-   This creates the `cybersecurity_portal` database, all tables, and seeds
-   10 bilingual quiz questions.
-4. **Configure credentials** in `includes/config.php` if yours differ:
-   ```php
-   define('DB_USER', 'root');
-   define('DB_PASS', '');        // WAMP/XAMPP default is empty
-   ```
-   Also confirm `BASE_URL` matches your folder name (`/cybersecurity-portal`).
-5. **Open the site:** `http://localhost/cybersecurity-portal/`
+- Clear, jargon-free explanations of common cyber threats
+- Real-world examples of scams targeting Filipino users
+- An interactive quiz that tests and reinforces learning
+- Official contacts for reporting cybercrime
 
-## Admin access (secure first run)
+---
 
-1. Go to `http://localhost/cybersecurity-portal/admin/login.php`.
-2. Because the `users` table is empty, a **bootstrap form** appears: create the
-   first administrator (password is stored with `password_hash()` — bcrypt,
-   never plaintext). The form permanently disappears once an admin exists.
-3. Sign in. The dashboard shows total users, quiz attempts, average score,
-   and contact messages; side pages manage users (admin role), quiz questions,
-   saved results, and messages.
+## ✨ Features
 
-## Features
+### Public Site (10 pages)
+| Page | Purpose |
+|------|---------|
+| **Home** | Hero section, topic cards, safety checklist, FAQ |
+| **About** | What cybersecurity is and why it matters |
+| **Scams** | 12 common scam types with warning signs |
+| **Phishing** | Interactive phishing email simulator |
+| **Passwords** | Browser-only password strength checker |
+| **Privacy** | Personal data protection & privacy tips |
+| **Practices** | Scored cybersecurity checklist |
+| **Quiz** | DB-driven quiz with instant feedback and score saving |
+| **Resources** | Official PH agency contacts (PNP-ACG, NBI, DICT, NPC, CICC, BSP) |
+| **Contact** | Contact form saved to the database |
 
-- **10 public pages** — home, about, scams (12-scam bilingual library), phishing
-  (interactive simulator), passwords (browser-only strength checker), privacy,
-  practices (scored checklist saved on-device), quiz (DB-driven, opt-in result
-  saving), resources (official PH agency links), contact.
-- **EN / FIL switcher** — floating lower-right control on every page; choice
-  persisted in PHP session + a 1-year cookie; entire site translated.
-- **All JavaScript interactions** — password strength meter (never sent to the
-  server), phishing Safe/Suspicious simulator, checklist score, quiz engine,
-  accordion, tip rotator, topic search overlay, mobile menu, back-to-top.
+### Admin Dashboard
+- Login with rate limiting (5 failures → 15-minute lockout)
+- Overview stats: users, quiz attempts, average score, unread messages
+- **Users** — view all registered accounts
+- **Quiz Questions** — add / delete questions
+- **Quiz Results** — view all attempts with percentage coloring
+- **Messages** — read, mark as read, and view contact submissions
 
-## Security practices implemented
+---
 
-- PDO **prepared statements** for every query (no string-built SQL).
-- `htmlspecialchars()` escaping on all output (via `e()` helper).
-- CSRF tokens on every form; POST-only state changes.
-- `password_hash()` / `password_verify()` authentication; session
-  `session_regenerate_id()` on login; secure cookie params.
-- Login **rate limiting**: 5 failures → 15-minute lock.
-- Role-based authorization (user management requires `admin`).
-- Security headers in both `config.php` and `.htaccess`.
-- No error internals, stack traces, or DB credentials shown to visitors.
+## 🛠️ Tech Stack
 
-## Notes
+| Layer | Technology |
+|-------|-----------|
+| Backend | PHP 8.x |
+| Database | MySQL 5.7+ / MariaDB (via PDO prepared statements) |
+| Frontend | HTML5, CSS3, Vanilla JavaScript |
+| UI Framework | Bootstrap 5.3 |
+| Icons | Font Awesome 6.4 |
+| Fonts | Google Fonts — Inter |
+| Server | Apache (WAMP / XAMPP / LAMP) |
 
-- Statistics are truthfully replaced by Learn/Protect/Verify/Report pillars —
-  no invented numbers.
-- The Resources page links only to official domains (PNP-ACG, NBI, DICT, NPC,
-  CICC, BSP) and reminds visitors to verify hotlines on those sites — nothing
-  is fabricated.
+---
+
+## 📁 Project Structure
