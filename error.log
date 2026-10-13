@@ -1,0 +1,216 @@
+[09-Sep-2026 08:25:53 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cybersecurity_portal.login_attempts' doesn't exist in C:\wamp64\www\cybersecurity-portal\includes\auth.php:25
+Stack trace:
+#0 C:\wamp64\www\cybersecurity-portal\includes\auth.php(25): PDO->prepare('SELECT COUNT(*)...')
+#1 C:\wamp64\www\cybersecurity-portal\admin\login.php(30): checkLoginAttempts('admin@cybersecu...')
+#2 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\includes\auth.php on line 25
+[09-Sep-2026 08:31:06 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:32:43 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:32:48 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:34:04 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:34:07 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:36:19 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:36:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:37:40 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[09-Sep-2026 08:38:07 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\admin\login.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\admin\login.php on line 92
+[30-Sep-2026 01:16:20 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\includes\navbar.php:15
+Stack trace:
+#0 C:\wamp64\www\cybersecurity-portal\includes\header.php(27): include()
+#1 C:\wamp64\www\cybersecurity-portal\index.php(2): require_once('C:\\wamp64\\www\\c...')
+#2 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\includes\navbar.php on line 15
+[30-Sep-2026 01:16:21 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\includes\navbar.php:15
+Stack trace:
+#0 C:\wamp64\www\cybersecurity-portal\includes\header.php(27): include()
+#1 C:\wamp64\www\cybersecurity-portal\index.php(2): require_once('C:\\wamp64\\www\\c...')
+#2 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\includes\navbar.php on line 15
+[30-Sep-2026 01:16:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\includes\navbar.php:15
+Stack trace:
+#0 C:\wamp64\www\cybersecurity-portal\includes\header.php(27): include()
+#1 C:\wamp64\www\cybersecurity-portal\index.php(2): require_once('C:\\wamp64\\www\\c...')
+#2 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\includes\navbar.php on line 15
+[30-Sep-2026 01:17:38 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\index.php on line 10
+[30-Sep-2026 01:18:25 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\scams.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\scams.php on line 8
+[30-Sep-2026 01:18:51 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\scams.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\scams.php on line 8
+[30-Sep-2026 01:19:15 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\practices.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\practices.php on line 8
+[30-Sep-2026 01:19:31 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\scams.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\scams.php on line 8
+[30-Sep-2026 01:19:46 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\scams.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\scams.php on line 8
+[30-Sep-2026 01:19:51 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\phishing.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\phishing.php on line 8
+[30-Sep-2026 01:20:00 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\passwords.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\passwords.php on line 8
+[30-Sep-2026 01:20:33 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\privacy.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\privacy.php on line 8
+[30-Sep-2026 01:20:41 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\practices.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\practices.php on line 8
+[30-Sep-2026 01:20:50 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\practices.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\practices.php on line 8
+[30-Sep-2026 01:21:00 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\phishing.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\phishing.php on line 8
+[30-Sep-2026 01:21:05 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\practices.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\practices.php on line 8
+[30-Sep-2026 01:24:00 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\phishing.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\phishing.php on line 8
+[30-Sep-2026 01:24:57 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\phishing.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\phishing.php on line 8
+[30-Sep-2026 01:25:45 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function t() in C:\wamp64\www\cybersecurity-portal\contact.php:53
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\contact.php on line 53
+[30-Sep-2026 01:26:11 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\wamp64\www\cybersecurity-portal\contact.php:77
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\cybersecurity-portal\contact.php on line 77
+[30-Sep-2026 01:53:03 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:53:03 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:53:03 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 01:53:03 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 01:56:16 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:56:16 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:56:16 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 01:56:16 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 01:56:18 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:56:18 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:56:18 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 01:56:18 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 01:56:23 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:56:23 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:56:23 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\scams.php:0
+[30-Sep-2026 01:56:23 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\scams.php:3
+[30-Sep-2026 01:57:12 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:57:12 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:57:12 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\about.php:0
+[30-Sep-2026 01:57:12 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\about.php:3
+[30-Sep-2026 01:57:13 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:57:13 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:57:13 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\scams.php:0
+[30-Sep-2026 01:57:13 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\scams.php:3
+[30-Sep-2026 01:57:15 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:57:15 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:57:15 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\quiz.php:0
+[30-Sep-2026 01:57:15 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\quiz.php:3
+[30-Sep-2026 01:57:22 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:57:22 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:57:22 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 01:57:22 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 01:58:48 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:58:48 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:58:48 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 01:58:48 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 01:58:49 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:58:49 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:58:49 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 01:58:49 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 01:58:51 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:58:51 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:58:51 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\scams.php:0
+[30-Sep-2026 01:58:51 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\scams.php:3
+[30-Sep-2026 01:58:56 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:58:56 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:58:56 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\about.php:0
+[30-Sep-2026 01:58:56 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\about.php:3
+[30-Sep-2026 01:58:57 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:58:57 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:58:57 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\scams.php:0
+[30-Sep-2026 01:58:57 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\scams.php:3
+[30-Sep-2026 01:58:58 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:58:58 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:58:58 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\quiz.php:0
+[30-Sep-2026 01:58:58 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\quiz.php:3
+[30-Sep-2026 01:59:55 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:59:55 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:59:55 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\quiz.php:0
+[30-Sep-2026 01:59:55 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\quiz.php:3
+[30-Sep-2026 01:59:56 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 01:59:56 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 01:59:56 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\quiz.php:0
+[30-Sep-2026 01:59:56 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\quiz.php:3
+[30-Sep-2026 02:00:03 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 02:00:03 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 02:00:03 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 02:00:03 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 02:00:07 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 02:00:07 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 02:00:07 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\scams.php:0
+[30-Sep-2026 02:00:07 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\scams.php:3
+[30-Sep-2026 02:00:09 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 02:00:09 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 02:00:09 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 02:00:09 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 02:00:26 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 02:00:26 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 02:00:26 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\index.php:0
+[30-Sep-2026 02:00:26 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\index.php:3
+[30-Sep-2026 02:00:30 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 02:00:30 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 02:00:30 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\practices.php:0
+[30-Sep-2026 02:00:30 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\practices.php:3
+[30-Sep-2026 02:00:45 Asia/Manila] PHP Warning:  Undefined array key "language" in C:\wamp64\www\cybersecurity-portal\includes\header.php on line 9
+[30-Sep-2026 02:00:45 Asia/Manila] PHP Stack trace:
+[30-Sep-2026 02:00:45 Asia/Manila] PHP   1. {main}() C:\wamp64\www\cybersecurity-portal\phishing.php:0
+[30-Sep-2026 02:00:45 Asia/Manila] PHP   2. require_once() C:\wamp64\www\cybersecurity-portal\phishing.php:3

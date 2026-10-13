@@ -1,0 +1,16 @@
+# National Cybersecurity Awareness Portal — Apache configuration (WAMP/XAMPP)
+# Friendly 404 page
+ErrorDocument 404 /cybersecurity-portal/404.php
+
+# Do not list directory contents
+Options -Indexes
+
+# Basic security headers (also sent by config.php as a fallback)
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "DENY"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Default charset
+AddDefaultCharset UTF-8
